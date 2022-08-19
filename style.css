@@ -1,3 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.data-info {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: medium;
+    margin: 0 auto;
+    padding: 2rem 0 2rem;
+    align-items: center;
+    gap: 4rem;
+    border-bottom: 1px solid #ccc;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+    border-spacing: 5;
+    
+}
+
+tr {
+    border-bottom: 2px solid #ccc;
+    
+}
+
+tbody > tr:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+td {
+    padding: 8px 2px;
+}
+
+td.num-stats {
+    text-align: center;
+}
+
 .desc,
 .asc{
     cursor: pointer;            

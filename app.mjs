@@ -10,7 +10,7 @@ function startApp() {
   
     const header = document.querySelector('h2');
     if(header) {
-      header.textContent = 'make some magic here!!';
+      // header.textContent = 'make some magic here!!';
     }
   };
   

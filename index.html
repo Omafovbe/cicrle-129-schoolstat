@@ -10,41 +10,44 @@
 </head>
 <body>
     
-    <h1>Dashboard</h1>
-
+    
+    <main>
+        <h1 style="text-align:center">School Dashboard</h1>
+    
     <section class="data-info">
-        <h2>Instructors per cources</h2>
+        <h2>Instructors per Cources</h2>
 
         <table>
             <thead>
                 <tr>
-                    <th>Instructor</th>
-                    <th><button id="asc" class="asc">^</button></th>
-                    <th>No of Course(s)</th>
-                    <th><button id="desc" class="desc">^</button></th>
+                    <th>Instructor
+                    <button id="asc" class="asc">^</button></th>
+                
+                    <th>No of Course(s)
+                    <button id="desc" class="desc">^</button></th>
                 </tr>
             </thead>
             
             <tbody id="Instructors">
                 <tr>
                     <td>Cain Marsh</td>
-                    <td>4</td>
+                    <td class="num-stats">4</td>
                 </tr>
                 <tr>
                     <td>Nayda Hutchinson</td>
-                    <td>3</td>
+                    <td class="num-stats">3</td>
                 </tr>
                 <tr>
                     <td>Chastity Cote</td>
-                    <td>5</td>
+                    <td class="num-stats">5</td>
                 </tr>
                 <tr>
                     <td>Fallon Cantu</td>
-                    <td>2</td>
+                    <td class="num-stats">2</td>
                 </tr>
                 <tr>
                     <td>Orli French</td>
-                    <td>1</td>
+                    <td class="num-stats">1</td>
                 </tr>
             </tbody>
             
@@ -57,24 +60,24 @@
         <table>
             <thead>
                 <tr>
-                    <td>Program Track</td>
-                    <th><button id="ascProgram" class="asc">^</button></th>
-                    <td>No of Students</td>
-                    <th><button id="descProgram" class="desc">^</button></th>
+                    <th>Program Track
+                    <button id="ascProgram" class="asc">^</button></th>
+                    <th>No of Students
+                    <button id="descProgram" class="desc">^</button></th>
                 </tr>
             </thead>
             <tbody id="programTrack">
                 <tr>
                     <td>Frontend Development</td>
-                    <td>420</td>
+                    <td class="num-stats">420</td>
                 </tr>
                 <tr>
                     <td>Backend Development</td>
-                    <td>340</td>
+                    <td class="num-stats">340</td>
                 </tr>
                 <tr>
                     <td>Cloud Applications</td>
-                    <td>150</td>
+                    <td class="num-stats">150</td>
                 </tr>
             </tbody>
         </table>
@@ -85,20 +88,20 @@
         <table>
             <thead>
                 <tr>
-                    <td>Gender</td>
-                    <th><button id="ascGender" class="asc">^</button></th>
-                    <td>No of Persons</td>
-                    <th><button id="descGender" class="desc">^</button></th>
+                    <th>Gender
+                    <button id="ascGender" class="asc">^</button></th>
+                    <th>No of Persons
+                    <button id="descGender" class="desc">^</button></th>
                 </tr>
             </thead>
             <tbody id="gender">
                 <tr>
                     <td>Female</td>
-                    <td>387</td>
+                    <td class="num-stats">387</td>
                 </tr>
                 <tr>
                     <td>Male</td>
-                    <td>423</td>
+                    <td class="num-stats">423</td>
                 </tr>
             </tbody>
         </table>
@@ -110,29 +113,30 @@
         <table>
             <thead>
                 <tr>
-                    <td>Aggregate</td>
-                    <th><button id="ascAge" class="asc">^</button></th>
-                    <td>Age</td>
-                    <th><button id="descAge" class="desc">^</button></th>
+                    <th>Aggregate
+                    <button id="ascAge" class="asc">^</button></th>
+                    <th>Age
+                    <button id="descAge" class="desc">^</button></th>
                 </tr>
             </thead>
             <tbody id="Aggregate">
                 <tr>
                     <td>Minimun</td>
-                    <td>18</td>
+                    <td class="num-stats">18</td>
                 </tr>
                 <tr>
                     <td>Maximum</td>
-                    <td>38</td>
+                    <td class="num-stats">38</td>
                 </tr>
                 <tr>
                     <td>Average</td>
-                    <td>29</td>
+                    <td class="num-stats">29</td>
                 </tr>
                 
             </tbody>
         </table>
     </section>
+</main>
 
     <!-- // ============= EEND DO NOT EDIT ============== // -->
     <script src="index.mjs" type="module"></script>
